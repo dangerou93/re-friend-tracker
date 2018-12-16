@@ -75,7 +75,7 @@ export class GuiModel {
                         {
                             "type": "okButton",
                             "name": "Ok"
-                        }
+                        },
                     ]
                 },
                 {
@@ -101,7 +101,7 @@ export class GuiModel {
                         {
                             "type": "okButton",
                             "name": "Ok"
-                        }
+                        },
                     ]
                 },
                 {
@@ -165,7 +165,7 @@ export class GuiModel {
 					{
 						"type": "okButton",
 						"name": "Ok"
-					}
+					},
 				]
 				}
 					
@@ -202,7 +202,7 @@ export class GuiModel {
 							"icon": "fa-bicycle",
 							"color": "midnight-blue",
 							"page": "activitypage",
-						},
+						}
                     ]
                 },
                 {
