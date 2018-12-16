@@ -139,7 +139,7 @@ export class GuiModel {
                         {
                             "type": "okButton",
                             "name": "Ok"
-                        }
+                        },
                     ]
                 },
 				{
