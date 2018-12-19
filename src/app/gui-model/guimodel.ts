@@ -290,7 +290,7 @@ export class GuiModel {
                         },
                         {
                             "type": "button",
-                            "name": "EditLocation",
+                            "name": "NewLocation",
                             "icon": "fa-home",
                             "color": "yellow",
                             "width": 2,
@@ -298,12 +298,13 @@ export class GuiModel {
                                 "form": "LocationForm"
                             }
                         },
-                        {
+						{
                             "type": "list",
-                            "icon": "fa-calendar",
+                            "icon": "fa-home",
                             "color": "yellow",
                             "search": true,
-                            "url": "/location/:locationKey/activity"
+                            "url": "/location",
+                            "page": "locationpage",
                         },
                     ]
                 },
