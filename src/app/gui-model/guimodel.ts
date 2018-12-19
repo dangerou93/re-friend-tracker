@@ -277,7 +277,7 @@ export class GuiModel {
                             "search": true,
                             "url": "/friend",
                             "page" "friendpage"
-                            }
+                          
                         },
                     ]
                 },
