@@ -276,7 +276,7 @@ export class GuiModel {
                             "color": "blue",
                             "search": true,
                             "url": "/friend",
-                            "page" "friendpage"
+                            "page": "friendpage"
                           
                         },
                     ]
