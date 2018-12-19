@@ -163,9 +163,9 @@ export class GuiModel {
                         },
                         {
                             "id": "location",
-                            "type": "text",
+                            "type": "autocomplete",
                             "name": "Location",
-							"defaultKey": "locationKey",
+							"url": "/location",
 							"form": "LocationForm",
                             "width": 2,
                             "required": true
@@ -276,8 +276,43 @@ export class GuiModel {
                             "color": "blue",
                             "search": true,
                             "url": "/friend",
+                            "page" "friendpage"
+                            }
+                        },
+                    ]
+                },
+				{
+                    "id": "friendpage",
+                    "elementList": [
+                        {
+                            "type": "backbutton",
+                        },
+                        {
+                            "type": "button",
+                            "name": "EditFriend",
+                            "icon": "fa-user",
+                            "color": "green",
                             "form": {
                                 "form": "FriendForm"
+                            }
+                        },
+                        {
+                            "type": "button",
+                            "name": "AddActivity",
+                            "icon": "fa-bicycle",
+                            "color": "midnight-blue",
+                            "form": {
+                                "form": "AddActivityForm"
+                            }
+                        },
+                        {
+                            "type": "list",
+                            "icon": "fa-calendar",
+                            "color": "pumpkin",
+                            "search": true,
+                            "url": "/friend/:friendKey/activity",
+                            "form": {
+                                "form": "AddActivityForm"
                             }
                         },
                     ]
