@@ -337,7 +337,7 @@ export class GuiModel {
 
 				},
 				{
-					"id": "activityspage",
+					"id": "activitypage",
 					"elementList":[
 					
 					{
