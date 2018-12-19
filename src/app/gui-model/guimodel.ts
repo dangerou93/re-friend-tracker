@@ -191,7 +191,7 @@ export class GuiModel {
                             "name": "Ok"
                         }
                     ]
-                }
+                },
 				{
 					"id": "GroupForm",
 					"title": "Group",
